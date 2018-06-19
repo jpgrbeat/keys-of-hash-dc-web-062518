@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    map{|key,value| 
+    map{|key,value| arguments.include(value)
   end
 end
